@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 50px;
+  background-image: url(img/bg.jpg);
+  color: white;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 0 10000px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.main-wrapper {
+  max-width: 650px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 50px;
+}
+
+/*button {
+  cursor: pointer;
+  border-radius: 20px;
+}*/
+
+form div {
+  padding: 15px 0;
+}
+
+form div label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+form div input {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+form div button {
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+form ul {
+  list-style: none;
+}
+
+form ul li {
+  color: red;
+}
+
+.no-acc-register {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.no-acc-register button {
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+.no-acc-register p {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.custom-modal {
+display: none;
+background-color: black;
+box-shadow: rgba(255, 255, 255, 0.8) 0 0 1000px 1000px;
+max-width: 650px;
+margin: auto;
+padding: 50px;
+position: absolute;
+top: 10%;
+left: 0;
+right: 0;
+width: 100%;
+}
+
+.custom-modal button#closeModal {
+  height: 20px;
+  width: 20px;
+  color: white;
+  background-color: transparent;
+  border: 0;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.inner-container {
+  border: 1px solid green;
+  padding: 15px;
+}
+
+.inner-container.left-side {
+  text-align: center;
+}
+
+#editAccount {
+  display: inline;
+  padding: 5px 15px;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#logout {
+  display: inline;
+  padding: 5px 15px;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.inner-container img.profile-pic {
+  width: 70%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 5px solid white;
+  margin-bottom: 20px;
+}
+
+.inner-container.right-side form {
+display:flex;
+height: 100px;
+}
+
+.inner-container.right-side form textarea {
+  width: 85%;
+  border: 0;
+  padding: 10px;
+  resize: none;
+  outline-color: green;
+  }
+
+  .inner-container.right-side form button {
+    width: 15%;
+    border: 0;
+  }
+
+  #deleteProfile {
+    border: 2px solid red;
+    color: red;
+    padding: 5px 15px;
+  }
+
+  #allPostsWrapper .single-post {
+    background-color: #eaeaea;
+    color: #000;
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  #allPostsWrapper .single-post .post-content {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+  #allPostsWrapper .single-post .post-actions {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+  }
+
+  #allPostsWrapper .single-post .post-actions div button.like-btn {
+    background-image: url('img/like.png');
+    padding: 5px 15px 5px 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 0;
+  }
+
+  #allPostsWrapper .single-post .post-actions div button.comment-btn {
+    background-image: url(img/comment.png);
+    padding: 5px 15px 5px 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 0;
+    } 
+
+    #allPostsWrapper .single-post .post-actions div button.remove-btn {
+      border-color: red;
+      color: red;
+      padding: 5px 15px;
+    }
+
+  #allPostsWrapper .single-post .post-comments form {
+    height: 30px;
+    margin-top: 15px;
+  }
+
+  #allPostsWrapper .single-post .post-comments form input {
+    width: 85%;
+    padding: 0 10px;
+  }
+
+  #allPostsWrapper .single-post .post-comments form button {
+    width: 15%;
+    background-color: grey;
+  }
+
+  #allPostsWrapper .single-post .post-comments {
+    display: none;
+  }
+
+  #allPostsWrapper .single-post .post-comments .single-comment {
+    border: 1px dotted green;
+    padding: 10px;
+    margin-top: 10px;
+  }

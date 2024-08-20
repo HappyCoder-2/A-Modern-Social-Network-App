@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Network - Hexa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="logo"><img src="img/logo.png" alt=""></div>
+
+  <h1>New Generation Social Network</h1>
+
+  <div class="main-wrapper">
+    <form action="" id="loginForm">
+      <h2>Login</h2>
+      <div>
+        <label for="">Email:</label>
+        <input type="email" name="email" id="login_email" placeholder="john_white@example.com">
+      </div>
+
+      <div>
+        <label for="">Password:</label>
+        <input type="password" name="password" id="login_password" placeholder="**********">
+      </div>
+
+      <div>
+        <button>Login</button>
+      </div>
+
+    </form>
+  </div>
+
+  <div class="no-acc-register">
+    <p>No account yet?</p>
+    <button id="registration">Register</button>
+  </div>
+
+  <div class="custom-modal">
+    <button id="closeModal">X</button>
+
+
+    <form action="" id="registrationForm">
+      <h2>New User Registration</h2>
+
+      <div>
+        <label for="user_name">User name:</label>
+        <input type="text" id="user_name" name="user_name" placeholder="john.white1" required>
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="register_email" placeholder="john.white@example.com" required>
+      </div>
+
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="register_password" placeholder="**********" required>
+      </div>
+
+      <div>
+        <label for="repeat_password">Repeat password:</label>
+        <input type="password" id="password" name="repeat_password" placeholder="**********" required>
+      </div>
+
+      <div>
+        <button>Register</button>
+      </div>
+
+    </form>
+  </div>
+
+  <script src="js/Validator.js"></script>
+  <script src="js/Session.js"></script>
+  <script src="js/User.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
